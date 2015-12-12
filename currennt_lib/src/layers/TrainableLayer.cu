@@ -160,11 +160,11 @@ namespace layers {
         return m_learningRate;
     }
 
-/*    template <typename TDevice>
+    template <typename TDevice>
     typename TrainableLayer<TDevice>::real_vector& TrainableLayer<TDevice>::outputErrors()
     {
         return m_outputErrors;
-    }*/
+    }
 
     template <typename TDevice>
     typename TrainableLayer<TDevice>::real_vector& TrainableLayer<TDevice>::weights()
